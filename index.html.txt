@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>job_information00786 - Job Information Blog</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        header {
+            background-color: #e63946;
+            color: white;
+            padding: 15px 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2rem;
+        }
+        header p {
+            font-style: italic;
+            margin: 5px 0 0 0;
+        }
+        nav {
+            background-color: #1d3557;
+            display: flex;
+            justify-content: center;
+            padding: 10px 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: 600;
+            margin: 0 15px;
+            padding: 5px 10px;
+            border-radius: 4px;
+        }
+        nav a:hover {
+            background-color: #457b9d;
+        }
+        main {
+            max-width: 1000px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        article {
+            background-color: white;
+            margin-bottom: 20px;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgb(0 0 0 / 0.1);
+        }
+        article h2 {
+            margin-top: 0;
+            color: #e63946;
+        }
+        article .date {
+            font-size: 0.9rem;
+            color: #666;
+            margin-bottom: 10px;
+        }
+        footer {
+            background-color: #1d3557;
+            color: white;
+            text-align: center;
+            padding: 15px 10px;
+            margin-top: 40px;
+        }
+        .logo {
+            width: 120px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <!-- Insert logo based on provided image -->
+    <img src="job_information_logo.png" alt="job_information00786 Logo" class="logo" />
+    <h1>job_information00786</h1>
+    <p>"Aapki Job, Hamari Zimmedari!"</p>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">Latest Jobs</a>
+    <a href="#">Blog</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+</nav>
+
+<main>
+    <article>
+        <h2>Welcome to job_information00786</h2>
+        <div class="date">June 2024</div>
+        <p>Find the latest job updates, career tips, and guidance here. Whether you're looking for government jobs, private sector opportunities, or internships, we bring you the most relevant job postings weekly!</p>
+    </article>
+
+    <article>
+        <h2>How to Prepare for Job Interviews Successfully</h2>
+        <div class="date">June 15, 2024</div>
+        <p>Interviews can be intimidating, but preparation is key. Learn practical tips to impress your interviewer and increase your chances of success.</p>
+    </article>
+
+    <article>
+        <h2>Top 5 Skills Employers Look For in 2024</h2>
+        <div class="date">June 10, 2024</div>
+        <p>Understanding the in-demand skills can help you stand out. Explore the hottest skills required by employers this year and how to acquire them.</p>
+    </article>
+</main>
+
+<footer>
+    <p>&copy; 2024 job_information00786. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
