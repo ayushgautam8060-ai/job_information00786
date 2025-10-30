@@ -1,73 +1,178 @@
 <!DOCTYPE html>
 <html lang="hi">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aapki Naukari Hamari Jimmedari</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #ffffff;
-            color: #222;
-            text-align: center;
-            padding: 20px;
-        }
-        img {
-            width: 180px;
-            margin-top: 10px;
-        }
-        h1 {
-            color: #e60000;
-            font-size: 28px;
-        }
-        p {
-            font-size: 16px;
-            line-height: 1.6;
-        }
-        a {
-            color: #0056d6;
-            text-decoration: none;
-            font-weight: bold;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-        .button {
-            display: inline-block;
-            margin-top: 20px;
-            padding: 12px 25px;
-            background-color: #e60000;
-            color: Green;
-            border-radius: 8px;
-            font-size: 16px;
-            text-decoration: none;
-        }
-        .button:hover {
-            background-color: #cc0000;
-        }
-    </style>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Aapki Naukari Hamari Jimmedari — Job Information 00786</title>
+  <style>
+    :root{
+      --brand:#e03034;
+      --accent:#0073e6;
+      --muted:#666;
+      --bg:#ffffff;
+      --card:#f8f9ff;
+      --radius:12px;
+      --maxw:900px;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family: Inter, system-ui, Arial, Helvetica, sans-serif;
+      background:var(--bg);
+      color:#111;
+      -webkit-font-smoothing:antialiased;
+      display:flex;
+      justify-content:center;
+      padding:20px;
+    }
+    .wrap{width:100%; max-width:var(--maxw);}
+    header{
+      display:flex;
+      gap:16px;
+      align-items:center;
+      justify-content:center;
+      flex-direction:column;
+      margin-bottom:14px;
+    }
+    .logo {
+      width:140px;
+      height:140px;
+      border-radius:20px;
+      overflow:hidden;
+      box-shadow:0 8px 30px rgba(3,10,34,0.06);
+      background:#fff;
+    }
+    .logo img{width:100%;height:100%;object-fit:cover;display:block}
+    h1{margin:10px 0 4px; font-size:22px; text-align:center; color:#111}
+    .tag{color:var(--muted); text-align:center; margin-bottom:6px}
+
+    .hero{
+      background:var(--card);
+      border-radius:var(--radius);
+      padding:18px;
+      box-shadow:0 8px 30px rgba(16,24,40,0.04);
+      text-align:center;
+    }
+    .headline{font-size:20px; color:#0b2540; margin:4px 0}
+    .sub{color:var(--muted); margin:6px 0 14px}
+
+    .buttons{display:flex; gap:10px; justify-content:center; flex-wrap:wrap}
+    a.btn{
+      display:inline-block;
+      padding:11px 18px;
+      border-radius:10px;
+      text-decoration:none;
+      font-weight:600;
+      min-width:150px;
+      text-align:center;
+      transition:transform .12s ease, box-shadow .12s;
+      box-shadow:0 6px 18px rgba(3,10,34,0.06);
+    }
+    a.primary{background:var(--brand); color:#fff;}
+    a.primary:hover{transform:translateY(-3px); box-shadow:0 12px 30px rgba(224,48,52,0.16)}
+    a.secondary{background:#fff; border:1px solid #e6e9ee; color:#111}
+    a.secondary:hover{transform:translateY(-3px)}
+
+    .links-row{display:flex;justify-content:center;gap:12px;margin-top:10px;color:var(--muted);font-size:14px;flex-wrap:wrap}
+
+    .jobs{margin-top:16px; display:grid; gap:12px}
+    .job-card{background:#fff;border-radius:10px;padding:12px; box-shadow:0 6px 18px rgba(3,10,34,0.04); text-align:left}
+    .job-card h3{margin:0 0 6px; font-size:16px}
+    .job-card p{margin:4px 0; color:var(--muted); font-size:14px}
+    .apply-btn{
+      display:inline-block;
+      margin-top:8px;
+      padding:8px 12px;
+      background:var(--brand);
+      color:#fff;
+      border-radius:8px;
+      text-decoration:none;
+      font-weight:600;
+    }
+
+    footer{margin-top:18px;text-align:center;color:var(--muted);font-size:13px;padding-bottom:10px}
+
+    /* responsive */
+    @media (max-width:520px){
+      .logo{width:110px;height:110px;border-radius:14px}
+      h1{font-size:20px}
+      .headline{font-size:18px}
+      a.btn{min-width:130px;padding:10px 12px}
+    }
+  </style>
 </head>
 <body>
-<header style="text-align:center; padding:10px;">
-  <img src="logo.jpg" alt="Website Logo" style="width:120px; height:auto; border-radius:10px;">
-  <h1 style="margin-top:10px; font-size:24px; color:#333;">Job Information 00786</h1>
-</header>
-    <img src="https://i.ibb.co/1qF5rZb/jobinfo-logo.jpg" alt="Job Information Logo">
-    <h1>🚀 Aapki Naukari Hamari Jimmedari</h1>
-    <p>Daily Job Updates | Career Guidance | Campus Hiring | Apprenticeship</p>
+  <div class="wrap">
+    <!-- HEADER + LOGO: make sure file "logo.png" exists in repo root -->
+    <header>
+      <div class="logo" aria-hidden="true">
+        <img src="logo.png" alt="Job Information 00786 Logo" onerror="this.style.display='none'">
+      </div>
+      <h1>“Aapki Naukari Hamari Jimmedari”</h1>
+      <div class="tag">Job Information 00786 — Daily Job Updates • Career Guidance</div>
+    </header>
 
-    <a class="button" href="https://forms.gle/8yToDxD6GNe3DCGZA" target="_blank">Apply Now</a>
+    <!-- HERO -->
+    <main class="hero" role="main" aria-labelledby="main-heading">
+      <div class="headline">🚀 Job Information 00786</div>
+      <p class="sub">Daily Job Updates • Fresher & Experienced Openings • Placement Assistance</p>
 
-    <h3>📱 Follow Us:</h3>
-    <p>
-        <a href="https://www.instagram.com/job_information00786?igsh=MW02a3Z1ZmdtNjk5ZA==" target="_blank">Instagram</a> |
-        <a href="https://www.youtube.com/@job_information00786" target="_blank">YouTube</a> |
-        <a href="https://whatsapp.com/channel/0029VaBonf9L7UVetjM10x0f" target="_blank">WhatsApp</a> |
-        <a href="https://www.facebook.com/share/1DJ2oH1U3K/" target="_blank">Facebook</a>
-    </p>
+      <div class="buttons">
+        <a class="btn primary" href="https://forms.gle/8yToDxD6GNe3DCGZA" target="_blank" rel="noopener">📝 Apply Now</a>
+        <a class="btn secondary" href="https://www.instagram.com/job_information00786?igsh=MW02a3Z1ZmdtNjk5ZA==" target="_blank" rel="noopener">📸 Instagram</a>
+        <a class="btn secondary" href="https://whatsapp.com/channel/0029VaBonf9L7UVetjM10x0f" target="_blank" rel="noopener">💬 WhatsApp</a>
+      </div>
+
+      <div class="links-row">
+        <div>Contact: <strong>DM on Instagram</strong></div>
+        <div>Location: Farrukhabad, Uttar Pradesh</div>
+      </div>
+
+      <!-- LATEST JOBS (You can paste full posts below inside .jobs) -->
+      <section class="jobs" aria-label="Latest jobs">
+        <!-- example job (paste your full post here, repeat for more) -->
+        <article class="job-card">
+          <h3>🚨 Urgent Requirement – ITI Pass Candidates के लिए शानदार मौका!</h3>
+          <p>💼 जॉब के साथ पाएं D.Voc डिप्लोमा – 100% Free Recruitment!</p>
+
+          <p><strong>🏢 Company Name:</strong> Tenneco Automotive India Pvt. Ltd.</p>
+          <p><strong>📍 Location:</strong> Bawal, Rewari, Haryana</p>
+          <p><strong>🏭 Work:</strong> Shock Absorber Manufacturing</p>
+
+          <p><strong>💰 Salary & Benefits:</strong></p>
+          <ul>
+            <li>✔️ ITI Pass – ₹14,500 / Month (8 Hrs × 26 Days)</li>
+            <li>✔️ Attendance Award – ₹1,000 / Month</li>
+            <li>✔️ Overtime – ₹140 / Hour</li>
+            <li>✔️ Free 2-Year D.Voc Diploma (Mechanical)</li>
+            <li>✔️ Facilities – Free Canteen, Bus, Medical Insurance</li>
+          </ul>
+
+          <p><strong>📄 Documents Required:</strong> Resume, Aadhar, PAN, Bank Passbook, 4 Photos, Certificates</p>
+          <p><strong>🗓️ Interview Date:</strong> शनिवार, सुबह 9:00 बजे</p>
+          <p><strong>🗓️ Joining Date:</strong> 31 अक्टूबर</p>
+          <p><strong>📞 Contact HR:</strong> Shivam Gautam – 8182851860, 9696927880</p>
+          <p><strong>📝 Note:</strong> यह भर्ती 100% फ्री है — किसी भी प्रकार का शुल्क नहीं लिया जाएगा।</p>
+
+          <a class="apply-btn" href="https://forms.gle/8yToDxD6GNe3DCGZA" target="_blank" rel="noopener">📋 Apply Now</a>
+        </article>
+
+        <!-- add more job-card articles below for every new post -->
+      </section>
+    </main>
 
     <footer>
-        <p>© 2025 Job Information 00786 | All Rights Reserved</p>
+      © <span id="year"></span> Job Information 00786 — “Aapki Naukari Hamari Jimmedari”
+      <div style="margin-top:6px">Follow: 
+        <a href="https://www.instagram.com/job_information00786?igsh=MW02a3Z1ZmdtNjk5ZA==" target="_blank">Instagram</a> • 
+        <a href="https://www.youtube.com/@job_information00786" target="_blank">YouTube</a> • 
+        <a href="https://www.facebook.com/share/1DJ2oH1U3K/" target="_blank">Facebook</a>
+      </div>
     </footer>
+  </div>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
